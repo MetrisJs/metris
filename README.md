@@ -1,5 +1,5 @@
 # Metris
-> **work in progress**
+> **_work in progress_**
 
 ## Version
 > 0.0.0
