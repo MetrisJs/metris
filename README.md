@@ -13,4 +13,4 @@ convenience, Metris is designed with all major frameworks in mind and makes sett
 > TBD - some open source license
 
 ## Copyright
-> Niroshan Sugirtharatnam. All Rights Reserved.
+> Copyright 2014, Niroshan Sugirtharatnam. All Rights Reserved.
