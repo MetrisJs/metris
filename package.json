@@ -1,0 +1,24 @@
+{
+  "name": "metris",
+  "version": "0.0.0",
+  "description": "NodeJS library for measuring & displaying webserver performance metrics",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r test/setup.js test/**/*.test.js"
+  },
+  "keywords": [
+    "performance",
+    "metrics",
+    "analytics",
+    "dashboard"
+  ],
+  "author": "Niroshan Sugirtharatnam",
+  "license": "private",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4"
+  }
+}
