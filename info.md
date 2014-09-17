@@ -11,6 +11,8 @@
 
 # Purpose
 -------
+_to make it easier and cheaper for startups to get off the ground and to provide the basic tools to help become 
+profitable_
 ### Accessibility
 _priority: 1_
   - easy to implement on all major NodeJS frameworks (Express, Koa, SailsJS)
@@ -24,7 +26,7 @@ _priority: 1_
 
 ### Logging
 _priority: 2_
-  - provide api to log incomming traffic  with data based on subscription plan
+  - provide api to log incoming traffic  with data based on subscription plan
   - real time viewer still receives basic overview of GET requests' full data and POST's query but only MD5 of large values
 
 ### Development/Debugging

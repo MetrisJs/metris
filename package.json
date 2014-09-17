@@ -1,7 +1,7 @@
 {
   "name": "metris",
   "version": "0.0.0",
-  "description": "NodeJS library for measuring & displaying webserver performance metrics",
+  "description": "Library for measuring & displaying webserver performance metrics",
   "main": "index.js",
   "directories": {
     "test": "test"
