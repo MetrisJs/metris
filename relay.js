@@ -1,5 +1,13 @@
 "use strict";
 
+var defaultConfig = {
+  server: {
+    enabled: true,
+    port: 9337,
+    host: "localhost"
+  }
+};
+
 /**
  * @description
  *  Metris Relay constructor.
@@ -32,7 +40,6 @@ function Relay(config) {
    */
   this.bases = {};
 
-  this.incommingRequests = {};
 }
 
 Relay.prototype.addBase = function (baseType, base, baseName) {
