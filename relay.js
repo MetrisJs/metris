@@ -4,7 +4,9 @@ var defaultConfig = {
   server: {
     enabled: true,
     port: 9337,
-    host: "localhost"
+    host: "localhost",
+    username: "metris",
+    password: "sucks"
   }
 };
 
@@ -42,10 +44,8 @@ function Relay(config) {
 
 }
 
-Relay.prototype.addBase = function (baseType, base, baseName) {
-  if (baseName) {
-    parsebaseName(baseName);
-  }
+Relay.prototype.addBase = function (baseType, base) {
+  this.bases[base.name] = base;
 };
 
 module.exports = Relay;
