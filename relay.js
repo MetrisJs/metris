@@ -14,6 +14,9 @@
  *
  *  If no config set, then runs Metris using socket.io on port 9337 with no encryption.
  *
+ * @todo create a tutorial jsdoc or a wiki to show examples of uses with all popular frameworks
+ * @todo create expample to document how to generate config file to connect to metris services
+ *
  * @param config {JSON} - object containing Metris Relay socket-server configuration
  * @returns {Metris}
  * @constructor
