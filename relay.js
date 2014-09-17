@@ -20,9 +20,9 @@
  * @param config {JSON} - object containing Metris Relay socket-server configuration
  * @constructor
  */
-function MetrisRelay(config) {
-  if (!(this instanceof MetrisRelay)) {
-    return new MetrisRelay(config);
+function Relay(config) {
+  if (!(this instanceof Relay)) {
+    return new Relay(config);
   }
 
   /**
@@ -35,12 +35,10 @@ function MetrisRelay(config) {
   this.incommingRequests = {};
 }
 
-MetrisRelay.prototype.addBase = function (baseType, base, baseName) {
+Relay.prototype.addBase = function (baseType, base, baseName) {
   if (baseName) {
     parsebaseName(baseName);
   }
 };
 
-
-
-module.exports = MetrisRelay;
+module.exports = Relay;
