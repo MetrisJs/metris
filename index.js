@@ -1,4 +1,4 @@
 "use strict";
 
-module.exports.Base = require('./base.js');
-module.exports.Relay = require('./relay.js');
+module.exports.Base = require('metris-base');
+module.exports.Relay = require('metris-relay');
