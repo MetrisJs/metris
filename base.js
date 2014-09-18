@@ -5,6 +5,17 @@ function Base(httpServer, baseName) {
     return new Base(httpServer);
   }
 
+  /**
+   * "Pointer" to an http Server instance. These are the requests this base instance will listen to
+   * @type {http.Server}
+   */
+  this.server = undefined;
+  /**
+   * Name of this base. All requests to this base will be grouped under this name.
+   * @type {string}
+   */
+  this.name = undefined;
+
   this.parseArguments(httpServer, baseName);
 }
 
@@ -18,9 +29,7 @@ Base.prototype.parseArguments = function (httpServer, baseName) {
   //Server object validated
   this._server = httpServer;
 
-  /**
-   * @todo base name should be generated from ip and port if none given
-   */
+  /** @todo base name should be generated from ip and port if none given */
   this._name = baseName || "";
 };
 
