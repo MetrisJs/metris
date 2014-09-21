@@ -1,4 +1,5 @@
 "use strict";
+/*global describe, it, before, beforeEach, after, afterEach, expect, should */
 
 describe("metris", function () {
 
